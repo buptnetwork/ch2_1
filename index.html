@@ -6,5 +6,13 @@
 </head>
 <body>
 <h1>hello world</h1>
+<form name="input" action="html_form_action.php" method="post" enctype="multipart/form-data">
+    Username: <input type="text" name="user">
+    <p>你生活在哪个国家？</p>
+    <input type="radio" name="country" value="China" checked="checked">中国<br />
+    <input type="radio" name="country" value="the USA">美国
+
+    <input type="submit" value="Submit">
+</form>
 </body>
 </html>
